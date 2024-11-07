@@ -29,7 +29,7 @@ scp index.html usuario@ip_del servidor:/var/www/html/
 
 Podras acceder a tu aplicacion web:
 
-[MIT](http://IP_DEL_SERVIDOR)
+[LINK](http://IP_DEL_SERVIDOR)
 
 
 ## Usage
@@ -46,6 +46,6 @@ Si se utiliza un software con interfaz grafica es importante colocar, tu nombre 
 nota: CoachDB solo admite datos tipo JSON.
 
 Couch te permite gestionar documentos desde su interfaz WEB. Primero Accede a la interfaz desde el siguiente enlace.
-[MIT](http://IP_DEL_SERVIDOR:5984/_utils)
+[LINK](http://IP_DEL_SERVIDOR:5984/_utils)
 
 Ingresas tus credenciales, en caso de que no puedas ingresar con tus mismas credenciales de Ligthhpd, solicita al administrador tu usuario y constraseña asignados.
