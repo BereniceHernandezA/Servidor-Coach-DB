@@ -36,9 +36,9 @@ Podras acceder a tu aplicacion web:
 
 Para subir archivos al servidor usando SSH, te pedira la tura local, el nombre del archivo, la ip del servidor y la ruta remota, por ejemplo:
 
-`
+```bash
 ejemplo.json usuario@ip_servidor:/ruta/remota/destino
-`
+```
 Si se utiliza un software con interfaz grafica es importante colocar, tu nombre de usuario, IP del servidor y contraseña en la configuración de conexión.
 
 ## Acceder y subir datos en CouchDB
@@ -47,9 +47,8 @@ nota: CoachDB solo admite datos tipo JSON.
 
 Couch te permite gestionar documentos desde su interfaz WEB. Primero Accede a la interfaz desde el siguiente enlace.
 
-> "Recuerda cambiar la IP",[LINK] (http://IP_DEL_SERVIDOR:5984/_utils)。
-
+> "Recuerda cambiar la IP", [LINK](http://IP_DEL_SERVIDOR:5984/_utils)。
 Ingresas tus credenciales, en caso de que no puedas ingresar con tus mismas credenciales de Ligthhpd, solicita al administrador tu usuario y constraseña asignados.
 
 
-##End
+## End
