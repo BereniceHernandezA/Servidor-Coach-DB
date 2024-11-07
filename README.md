@@ -29,8 +29,10 @@ scp index.html usuario@ip_del servidor:/var/www/html/
 
 Podras acceder a tu aplicacion web:
 
-> "Recuerda cambiar la IP", [LINK](http://IP_DEL_SERVIDOR)。
 
+ ```bash
+http://IP_DEL_SERVIDOR
+```
 
 ## Usage
 
@@ -47,7 +49,11 @@ nota: CoachDB solo admite datos tipo JSON.
 
 Couch te permite gestionar documentos desde su interfaz WEB. Primero Accede a la interfaz desde el siguiente enlace.
 
-> "Recuerda cambiar la IP", [LINK](http://IP_DEL_SERVIDOR:5984/_utils)。
+```bash
+http://IP_DEL_SERVIDOR:5984/_utils
+```
+
+
 Ingresas tus credenciales, en caso de que no puedas ingresar con tus mismas credenciales de Ligthhpd, solicita al administrador tu usuario y constraseña asignados.
 
 
