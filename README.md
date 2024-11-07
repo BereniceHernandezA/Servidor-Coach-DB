@@ -1,12 +1,10 @@
 # Servidor Coach DB
- 
-# Local server
 
 Se explicara el paso a paso para conectarte de manera remota.
 
 ## Conexion SSH
 
-Para conectarte necesitaras abrir una terminal e ingresar tu nombre de usuario y la IP del servidor.
+Para iniciar la conexión, abre una terminal e ingresar tu nombre de usuario y la IP del servidor.
 
 ```bash
 ssh usuario@140.4.8.1
@@ -15,31 +13,39 @@ Despues te pedira la contraseña y deberas ingresar la contraseña de pila propo
 
 Al lograr ingresar deberas cambiar la contraseña.
  ```bash
-passwd <contraseña actual> <contraseña nueva>
+passwd
 ```
+Te pedira tu contraseña actual primero, despues ingresaras tu contraseña nueva.
+
+## Configuración del servidoe Lighttpd
+Light es como su nombre lo dice, rapido y serguro.
+Para configurarlo lo puedes hacer desde la ruta /var/www/html
+
+Para subir archivos es el siguiente comando.
+
+ ```bash
+scp index.html usuario@ip_del servidor:/var/www/html/
+```
+
+Podras acceder a tu aplicacion web:
+
+[MIT](http://IP_DEL_SERVIDOR)
+
 
 ## Usage
 
-```python
-import foobar
+Para subir archivos al servidor usando SSH, te pedira la tura local, el nombre del archivo, la ip del servidor y la ruta remota, por ejemplo:
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+```bash
+ejemplo.json usuario@ip_servidor:/ruta/remota/destino
 ```
+Si se utiliza un software con interfaz grafica es importante colocar, tu nombre de usuario, IP del servidor y contraseña en la configuración de conexión.
 
-## Contributing
+## Acceder y subir datos en CouchDB
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+nota: CoachDB solo admite datos tipo JSON.
 
-Please make sure to update tests as appropriate.
+Couch te permite gestionar documentos desde su interfaz WEB. Primero Accede a la interfaz desde el siguiente enlace.
+[MIT](http://IP_DEL_SERVIDOR:5984/_utils)
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+Ingresas tus credenciales, en caso de que no puedas ingresar con tus mismas credenciales de Ligthhpd, solicita al administrador tu usuario y constraseña asignados.
