@@ -29,7 +29,6 @@ scp index.html usuario@ip_del servidor:/var/www/html/
 
 Podras acceder a tu aplicacion web:
 
-[LINK](http://IP_DEL_SERVIDOR)
 > "Recuerda cambiar la IP", [LINK](http://IP_DEL_SERVIDOR)。
 
 
