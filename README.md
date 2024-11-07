@@ -6,9 +6,9 @@ Se explicara el paso a paso para conectarte de manera remota.
 
 Para iniciar la conexión, abre una terminal e ingresar tu nombre de usuario y la IP del servidor.
 
-`
+```bash
 ssh usuario@140.4.8.1
-`
+```
 Despues te pedira la contraseña y deberas ingresar la contraseña de pila proporcionada.
 
 Al lograr ingresar deberas cambiar la contraseña.
