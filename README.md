@@ -7,14 +7,14 @@ Se explicara el paso a paso para conectarte de manera remota.
 Para iniciar la conexión, abre una terminal e ingresar tu nombre de usuario y la IP del servidor.
 
 ```bash
-ssh usuario@140.4.8.1
+ssh usuario@ip_servidor
 ```
 Despues te pedira la contraseña y deberas ingresar la contraseña de pila proporcionada.
 
 Al lograr ingresar deberas cambiar la contraseña.
- `
+ ```bash
 passwd
-`
+```
 Te pedira tu contraseña actual primero, despues ingresaras tu contraseña nueva.
 
 ## Configuración del servidoe Lighttpd
@@ -23,14 +23,14 @@ Para configurarlo lo puedes hacer desde la ruta /var/www/html
 
 Para subir archivos es el siguiente comando.
 
- `
+ ```bash
 scp index.html usuario@ip_del servidor:/var/www/html/
-`
+```
 
 Podras acceder a tu aplicacion web:
 
 [LINK](http://IP_DEL_SERVIDOR)
-> "Recuerda cambiar la IP", (http://IP_DEL_SERVIDOR)。
+> "Recuerda cambiar la IP", [LINK](http://IP_DEL_SERVIDOR)。
 
 
 ## Usage
@@ -48,12 +48,9 @@ nota: CoachDB solo admite datos tipo JSON.
 
 Couch te permite gestionar documentos desde su interfaz WEB. Primero Accede a la interfaz desde el siguiente enlace.
 
-> "Recuerda cambiar la IP", (http://IP_DEL_SERVIDOR:5984/_utils)。
+> "Recuerda cambiar la IP",[LINK] (http://IP_DEL_SERVIDOR:5984/_utils)。
 
 Ingresas tus credenciales, en caso de que no puedas ingresar con tus mismas credenciales de Ligthhpd, solicita al administrador tu usuario y constraseña asignados.
 
-**Tabla de Contenido**
-[TOCM]
-[TOC]
 
 ##End
